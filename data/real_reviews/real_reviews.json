@@ -1,0 +1,366 @@
+{
+  "source": "Sample real reviews for SaaS Developer Tools (simulated based on G2/Capterra patterns)",
+  "collection_date": "2024-01-15",
+  "reviews": [
+    {
+      "id": "real_001",
+      "product": "CircleCI",
+      "category": "CI/CD Platform",
+      "rating": 5,
+      "text": "We've been using CircleCI for about 2 years now and it's transformed our deployment workflow. The parallel builds cut our CI time from 45 minutes down to about 12 minutes. Docker layer caching is a game changer. Only complaint is the pricing gets steep as you scale, but the productivity gains justify it.",
+      "reviewer_title": "Senior DevOps Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_002",
+      "product": "Datadog",
+      "category": "Monitoring Tool",
+      "rating": 4,
+      "text": "Solid monitoring platform with great integrations. Setting up distributed tracing took some time but the APM insights are valuable. Dashboard customization is powerful but has a learning curve. Wish the log ingestion pricing was more transparent - we got surprised by overages.",
+      "reviewer_title": "Platform Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_003",
+      "product": "Kong Gateway",
+      "category": "API Gateway",
+      "rating": 4,
+      "text": "Kong handles our API traffic well at scale - we're processing around 50k requests per second. The plugin ecosystem is extensive. Rate limiting and auth plugins work out of the box. Documentation could be better organized though, and debugging issues in production requires deep diving into logs.",
+      "reviewer_title": "Backend Lead",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_004",
+      "product": "GitHub Actions",
+      "category": "CI/CD Platform",
+      "rating": 5,
+      "text": "Moving from Jenkins to GitHub Actions simplified our pipeline significantly. YAML configs are cleaner, and the marketplace actions save tons of time. Matrix builds for multi-platform testing just work. Integration with the rest of GitHub ecosystem is seamless. Haven't looked back.",
+      "reviewer_title": "Full Stack Developer",
+      "source": "G2"
+    },
+    {
+      "id": "real_005",
+      "product": "New Relic",
+      "category": "Monitoring Tool",
+      "rating": 3,
+      "text": "Mixed feelings about New Relic. The APM is excellent and has helped us catch performance regressions before production. However, the UI is cluttered and finding specific metrics takes too many clicks. NRQL is powerful but the syntax isn't intuitive. Also experienced some data gaps during high-traffic periods.",
+      "reviewer_title": "SRE",
+      "source": "G2"
+    },
+    {
+      "id": "real_006",
+      "product": "Terraform Cloud",
+      "category": "Infrastructure Tool",
+      "rating": 4,
+      "text": "Terraform Cloud adds nice collaboration features on top of open source Terraform. Remote state management eliminates state file conflicts. Sentinel policies help enforce compliance. The run queue can get slow during peak hours. Would love better drift detection and auto-remediation options.",
+      "reviewer_title": "Cloud Architect",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_007",
+      "product": "Postman",
+      "category": "API Development Tool",
+      "rating": 5,
+      "text": "Postman is essential for our API development workflow. Collections and environments make testing different stages easy. The mock server feature saved us weeks during frontend development. Newman CLI integrates nicely with our CI pipeline. Team workspaces could sync faster but overall excellent tool.",
+      "reviewer_title": "API Developer",
+      "source": "G2"
+    },
+    {
+      "id": "real_008",
+      "product": "Sentry",
+      "category": "Error Tracking",
+      "rating": 4,
+      "text": "Sentry catches errors we'd never find otherwise. Breadcrumbs and stack traces with source maps are invaluable for debugging. Release tracking shows us exactly which deployment caused issues. The Slack integration is noisy by default - spent time tuning alert rules. Python SDK is great, React SDK needed more setup.",
+      "reviewer_title": "Senior Developer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_009",
+      "product": "AWS SDK",
+      "category": "Cloud SDK",
+      "rating": 3,
+      "text": "AWS SDK does what it needs to do but the developer experience varies. Some services have clean APIs, others feel bolted on. Error messages are often cryptic - spent hours debugging IAM permission issues. TypeScript support has improved but types can be overly complex. Documentation exists but finding the right page is an adventure.",
+      "reviewer_title": "Backend Engineer",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_010",
+      "product": "Vercel",
+      "category": "Deployment Platform",
+      "rating": 5,
+      "text": "Vercel makes frontend deployment trivial. Push to main and your site is live in seconds. Preview deployments for PRs are fantastic for review. Edge functions are fast and the DX is unmatched. Only downside is vendor lock-in concerns and pricing for high-traffic sites. Great for Next.js projects especially.",
+      "reviewer_title": "Frontend Lead",
+      "source": "G2"
+    },
+    {
+      "id": "real_011",
+      "product": "PagerDuty",
+      "category": "Incident Management",
+      "rating": 4,
+      "text": "PagerDuty's on-call scheduling and escalation policies work reliably. The mobile app ensures I never miss critical alerts. Integration with our monitoring stack was straightforward. UI feels dated compared to newer tools. Pricing is on the higher end but the reliability is worth it for production systems.",
+      "reviewer_title": "DevOps Manager",
+      "source": "G2"
+    },
+    {
+      "id": "real_012",
+      "product": "Stripe API",
+      "category": "Payment SDK",
+      "rating": 5,
+      "text": "Best API documentation I've ever worked with. The test mode with mock cards makes integration development smooth. Webhooks are reliable and the dashboard shows detailed logs. SDK handles retries and idempotency well. Checkout takes minutes to implement. Support responded to our question within hours.",
+      "reviewer_title": "Full Stack Developer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_013",
+      "product": "Elasticsearch",
+      "category": "Search Platform",
+      "rating": 3,
+      "text": "Elasticsearch is powerful but demanding. Query DSL has a steep learning curve. Cluster management requires constant attention - we've had split-brain issues and unassigned shards. Memory tuning is critical. Once properly configured, search performance is excellent. The ELK stack together works well for log aggregation.",
+      "reviewer_title": "Data Engineer",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_014",
+      "product": "Cloudflare Workers",
+      "category": "Edge Computing",
+      "rating": 4,
+      "text": "Workers let us run code at the edge with minimal latency. The wrangler CLI is decent for local development. KV storage works for simple use cases. Limitations hit you when building complex apps - no native WebSocket support initially was painful. Pricing is very competitive compared to Lambda@Edge.",
+      "reviewer_title": "Platform Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_015",
+      "product": "GitLab CI",
+      "category": "CI/CD Platform",
+      "rating": 4,
+      "text": "Having CI/CD built into GitLab reduces context switching. Pipeline visualization helps debug failed jobs. Auto DevOps templates get you started quickly. Self-hosted runners give us control over build environments. Shared runners can be slow during busy periods. YAML anchors help reduce pipeline duplication.",
+      "reviewer_title": "DevOps Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_016",
+      "product": "Grafana",
+      "category": "Monitoring Tool",
+      "rating": 5,
+      "text": "Grafana dashboards are beautiful and highly customizable. Query editor supports multiple data sources seamlessly. Alerting works across Slack and PagerDuty. Template variables make dashboards reusable. Community dashboard library is huge. Only wish the Explore view was more intuitive for ad-hoc queries.",
+      "reviewer_title": "SRE",
+      "source": "G2"
+    },
+    {
+      "id": "real_017",
+      "product": "Twilio",
+      "category": "Communication API",
+      "rating": 4,
+      "text": "Twilio's SMS and voice APIs are reliable with good global coverage. Console for debugging messages is helpful. Pricing per message adds up for high volume. Studio flow builder simplifies IVR setup without code. Carrier filtering can be aggressive - some legitimate messages got blocked. Support tier matters.",
+      "reviewer_title": "Backend Developer",
+      "source": "G2"
+    },
+    {
+      "id": "real_018",
+      "product": "Hasura",
+      "category": "GraphQL Engine",
+      "rating": 4,
+      "text": "Hasura generates a GraphQL API from Postgres instantly. Subscriptions for real-time data work great. Permission system is flexible but verbose. Remote schemas help integrate existing services. Performance is good with proper query planning. Metadata management through CLI could be smoother for GitOps.",
+      "reviewer_title": "Full Stack Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_019",
+      "product": "Buildkite",
+      "category": "CI/CD Platform",
+      "rating": 5,
+      "text": "Buildkite's agent model gives us full control over build infrastructure. Pipelines are fast and parallelization is easy. The web UI is clean and responsive. Dynamic pipelines from YAML are powerful. Artifact storage integration with S3 works well. Excellent for teams needing custom build environments.",
+      "reviewer_title": "Build Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_020",
+      "product": "Supabase",
+      "category": "Backend Platform",
+      "rating": 4,
+      "text": "Supabase is like Firebase but with Postgres. Auth, storage, and real-time features accelerate development. Row level security policies are powerful once you understand them. The dashboard is clean and functional. Edge functions are newer and less mature than the core features. Great for rapid prototyping.",
+      "reviewer_title": "Indie Developer",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_021",
+      "product": "LaunchDarkly",
+      "category": "Feature Management",
+      "rating": 4,
+      "text": "LaunchDarkly makes feature flags easy to manage across teams. SDK initialization is straightforward. Targeting rules allow granular rollouts. The audit log helps track who changed what. Pricing is enterprise-focused - expensive for smaller teams. Experimentation features are useful for A/B testing.",
+      "reviewer_title": "Product Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_022",
+      "product": "Prisma",
+      "category": "ORM",
+      "rating": 5,
+      "text": "Prisma transformed how we interact with databases. Type-safe queries catch errors at compile time. Migrations are straightforward. The studio UI helps visualize data. Schema is readable and version controlled. Some complex queries need raw SQL but that's rare. Best Node.js ORM experience available.",
+      "reviewer_title": "Backend Developer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_023",
+      "product": "Snyk",
+      "category": "Security Tool",
+      "rating": 4,
+      "text": "Snyk finds vulnerabilities in dependencies we'd miss otherwise. Integration with CI fails builds on critical issues. Fix PRs are convenient but sometimes break things. Container scanning adds coverage. License compliance checks are useful. False positives happen but overall signal to noise is good.",
+      "reviewer_title": "Security Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_024",
+      "product": "Heroku",
+      "category": "PaaS",
+      "rating": 3,
+      "text": "Heroku pioneered easy deployments but feels stuck in time. Dynos are straightforward for simple apps. Pricing escalates quickly - we're paying $500/month for modest traffic. No European data residency for years was a blocker. Add-ons ecosystem is convenient. Fine for prototypes but we're migrating to containers.",
+      "reviewer_title": "CTO",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_025",
+      "product": "Amplitude",
+      "category": "Analytics",
+      "rating": 4,
+      "text": "Amplitude's cohort analysis and funnels reveal user behavior patterns we missed in GA. Event tracking is flexible. Retention charts help measure feature impact. Query performance degrades with complex segments on large datasets. Learning the product takes time but pays off. Worth it for product-led teams.",
+      "reviewer_title": "Product Manager",
+      "source": "G2"
+    },
+    {
+      "id": "real_026",
+      "product": "Docker",
+      "category": "Containerization",
+      "rating": 5,
+      "text": "Docker fundamentally changed how we develop and deploy. Compose simplifies local environments. Multi-stage builds keep images small. Layer caching speeds up builds. Docker Desktop resource usage on Mac is heavy. The ecosystem of base images is vast. Can't imagine going back to non-containerized workflows.",
+      "reviewer_title": "Platform Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_027",
+      "product": "Jira",
+      "category": "Project Management",
+      "rating": 2,
+      "text": "Jira is powerful but overengineered for most teams. Every workflow change requires admin permissions. Speed is a constant complaint - pages take forever to load. Search is unreliable for finding old tickets. JQL helps but shouldn't be necessary for basic queries. We're evaluating Linear as replacement.",
+      "reviewer_title": "Engineering Manager",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_028",
+      "product": "Retool",
+      "category": "Internal Tools",
+      "rating": 4,
+      "text": "Retool lets non-engineers build internal tools quickly. Connecting to databases and APIs is simple. The component library covers most use cases. Custom JavaScript fills gaps. Version control integration is recent but improving. Pricing is per-user which adds up. Good for operations teams.",
+      "reviewer_title": "Operations Lead",
+      "source": "G2"
+    },
+    {
+      "id": "real_029",
+      "product": "Auth0",
+      "category": "Identity Platform",
+      "rating": 4,
+      "text": "Auth0 handles authentication complexity we don't want to build. Social logins and MFA work out of box. Rules and actions customize the flow. Management API covers edge cases. Tenant limits in free tier are restrictive. Debugging authentication issues requires understanding their architecture. Enterprise SSO is smooth.",
+      "reviewer_title": "Security Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_030",
+      "product": "Segment",
+      "category": "Customer Data Platform",
+      "rating": 3,
+      "text": "Segment simplifies sending data to multiple destinations but at a high cost. Per-event pricing is expensive at scale - we're paying more than all our analytics tools combined. Protocol enforcement helps data quality. Debugging connection issues takes effort. Consider alternatives like RudderStack for cost-conscious teams.",
+      "reviewer_title": "Data Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_031",
+      "product": "Linear",
+      "category": "Project Management",
+      "rating": 5,
+      "text": "Linear is the issue tracker I've always wanted. Keyboard shortcuts make everything fast. UI is responsive and beautiful. Cycles and roadmaps work for our sprint process. GitHub integration syncs PRs automatically. The team actively ships improvements. Migrated from Jira and never looked back.",
+      "reviewer_title": "Tech Lead",
+      "source": "G2"
+    },
+    {
+      "id": "real_032",
+      "product": "Redis",
+      "category": "Database",
+      "rating": 5,
+      "text": "Redis is incredibly fast for caching and session storage. Data structures like sorted sets enable complex features easily. Pub/sub handles real-time notifications. Cluster mode scales horizontally. Memory limits require careful planning. Redis Stack adds search and JSON capabilities we now rely on.",
+      "reviewer_title": "Senior Backend Engineer",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_033",
+      "product": "Figma",
+      "category": "Design Tool",
+      "rating": 5,
+      "text": "Figma revolutionized design collaboration. Browser-based means no more file syncing issues. Real-time multiplayer lets designers and developers work together. Dev mode with CSS specs is invaluable. Plugin ecosystem extends functionality. Components and variants maintain consistency. Performance with large files is impressive.",
+      "reviewer_title": "Design Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_034",
+      "product": "Pulumi",
+      "category": "Infrastructure as Code",
+      "rating": 4,
+      "text": "Pulumi lets us write infrastructure in TypeScript instead of HCL. IDE autocomplete and type checking catch errors early. Mixing infrastructure with application code is powerful. State management works similarly to Terraform. Community providers are less mature. Stack references help organize large projects. Learning curve is worth it.",
+      "reviewer_title": "DevOps Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_035",
+      "product": "Notion",
+      "category": "Documentation",
+      "rating": 4,
+      "text": "Notion consolidates docs, wikis, and project tracking. Flexibility is both strength and weakness - teams use it inconsistently. Database views are powerful for tracking. Search finds content across workspaces. Offline support is weak - frustrating during travel. API enables integrations. Good for small to medium teams.",
+      "reviewer_title": "Engineering Manager",
+      "source": "G2"
+    },
+    {
+      "id": "real_036",
+      "product": "Mux",
+      "category": "Video API",
+      "rating": 5,
+      "text": "Mux handles video encoding and delivery we'd struggle to build. Upload and playback just work. Analytics show viewer engagement and quality metrics. Live streaming is reliable for our use case. Pricing is straightforward per minute. SDK for player customization is flexible. Support helped us optimize encoding settings.",
+      "reviewer_title": "Video Platform Engineer",
+      "source": "Capterra"
+    },
+    {
+      "id": "real_037",
+      "product": "Algolia",
+      "category": "Search Service",
+      "rating": 4,
+      "text": "Algolia provides sub-50ms search we couldn't achieve with Elasticsearch. Typo tolerance and synonym handling work well. Dashboard for testing queries is useful. Faceting enables filtering patterns. Record limits and pricing constrain large catalogs. InstantSearch widgets accelerate frontend development. Great for e-commerce search.",
+      "reviewer_title": "Frontend Developer",
+      "source": "G2"
+    },
+    {
+      "id": "real_038",
+      "product": "Confluent",
+      "category": "Streaming Platform",
+      "rating": 3,
+      "text": "Confluent Cloud manages Kafka complexity for us. Schema Registry ensures compatibility. ksqlDB simplifies stream processing. However, cost optimization is challenging - easy to overspend. UI for topic management is basic. Connector setup has gotchas not in docs. Consider self-managed if you have the expertise.",
+      "reviewer_title": "Data Architect",
+      "source": "Reddit"
+    },
+    {
+      "id": "real_039",
+      "product": "Raycast",
+      "category": "Developer Tool",
+      "rating": 5,
+      "text": "Raycast replaced Spotlight and Alfred. Extensions for GitHub, Jira, and Linear save clicks. Clipboard history and snippets boost productivity. Window management is handy. The team ships constantly. Script commands let us build custom workflows. Free tier is generous. Best launcher for developers on Mac.",
+      "reviewer_title": "Software Engineer",
+      "source": "G2"
+    },
+    {
+      "id": "real_040",
+      "product": "Cypress",
+      "category": "Testing Tool",
+      "rating": 4,
+      "text": "Cypress makes e2e testing less painful. The test runner with time travel debugging is excellent. Automatic waiting reduces flaky tests. Component testing is newer but promising. Cross-browser support improved with recent versions. Dashboard for CI results is useful but pricey. Steeper learning curve than Jest but worth it for integration tests.",
+      "reviewer_title": "QA Engineer",
+      "source": "Capterra"
+    }
+  ]
+}

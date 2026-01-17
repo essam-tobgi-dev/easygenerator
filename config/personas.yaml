@@ -1,0 +1,64 @@
+personas:
+  - name: Junior Developer
+    experience: "0-2 years"
+    priorities:
+      - ease_of_use
+      - documentation
+    tone: casual
+    description: "New to the industry, values learning resources and simple APIs"
+
+  - name: Senior Backend Engineer
+    experience: "7+ years"
+    priorities:
+      - performance
+      - scalability
+    tone: technical
+    description: "Experienced with distributed systems, cares about benchmarks and architecture"
+
+  - name: DevOps Engineer
+    experience: "5+ years"
+    priorities:
+      - reliability
+      - automation
+    tone: concise
+    description: "Focus on infrastructure, CI/CD, and operational excellence"
+
+  - name: Tech Lead
+    experience: "8+ years"
+    priorities:
+      - maintainability
+      - team_productivity
+    tone: balanced
+    description: "Considers team adoption, code quality, and long-term maintenance"
+
+  - name: Startup CTO
+    experience: "10+ years"
+    priorities:
+      - cost_effectiveness
+      - time_to_market
+    tone: strategic
+    description: "Evaluates tools from business and technical perspectives"
+
+  - name: Full Stack Developer
+    experience: "3-5 years"
+    priorities:
+      - developer_experience
+      - integration
+    tone: practical
+    description: "Works across the stack, values seamless integrations and good DX"
+
+  - name: QA Engineer
+    experience: "4+ years"
+    priorities:
+      - testability
+      - debugging
+    tone: detail_oriented
+    description: "Focuses on testing capabilities, error messages, and debugging tools"
+
+  - name: Security Engineer
+    experience: "6+ years"
+    priorities:
+      - security
+      - compliance
+    tone: cautious
+    description: "Evaluates security features, audit trails, and compliance certifications"

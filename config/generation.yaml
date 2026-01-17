@@ -1,0 +1,177 @@
+samples: 400
+
+rating_distribution:
+  5: 0.35
+  4: 0.30
+  3: 0.20
+  2: 0.10
+  1: 0.05
+
+review_length:
+  min_words: 40
+  max_words: 120
+
+products:
+  - name: CloudBuildX
+    category: CI/CD Platform
+    description: "Cloud-native CI/CD platform with parallel builds and smart caching"
+    features:
+      - parallel_builds
+      - docker_support
+      - github_integration
+      - build_caching
+
+  - name: APIFlow
+    category: API Gateway
+    description: "Enterprise API gateway with rate limiting and analytics"
+    features:
+      - rate_limiting
+      - api_versioning
+      - analytics_dashboard
+      - oauth_integration
+
+  - name: MonitorIQ
+    category: Monitoring Tool
+    description: "Full-stack observability platform with AI-powered alerting"
+    features:
+      - distributed_tracing
+      - custom_metrics
+      - alerting
+      - dashboards
+
+  - name: CloudSDK Pro
+    category: Cloud SDK
+    description: "Multi-cloud SDK with unified APIs for AWS, GCP, and Azure"
+    features:
+      - multi_cloud
+      - type_safety
+      - auto_retry
+      - connection_pooling
+
+  - name: DeployMaster
+    category: Deployment Tool
+    description: "Zero-downtime deployment orchestration with rollback capabilities"
+    features:
+      - blue_green_deployment
+      - canary_releases
+      - rollback
+      - deployment_hooks
+
+models:
+  # OpenAI Models
+  - provider: openai
+    model: gpt-4o
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: openai
+    model: gpt-4o-mini
+    enabled: true
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: openai
+    model: gpt-4-turbo
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: openai
+    model: gpt-3.5-turbo
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  # Anthropic Models
+  - provider: anthropic
+    model: claude-sonnet-4-20250514
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: anthropic
+    model: claude-3-5-sonnet-20241022
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: anthropic
+    model: claude-3-5-haiku-20241022
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  # Google Gemini Models
+  - provider: gemini
+    model: gemini-2.0-flash
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: gemini
+    model: gemini-1.5-pro
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: gemini
+    model: gemini-1.5-flash
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  # Ollama Local Models
+  - provider: ollama
+    model: llama3.2
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: llama3.1
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: mistral
+    enabled: true
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: mixtral
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: gemma2
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: phi3
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: qwen2.5
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+  - provider: ollama
+    model: codellama
+    enabled: false
+    max_tokens: 500
+    temperature: 0.8
+
+generation:
+  max_retries: 3
+  batch_size: 10
+  save_interval: 50
+  include_failed: false

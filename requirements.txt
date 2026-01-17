@@ -1,0 +1,35 @@
+# Core dependencies
+pyyaml>=6.0.1
+httpx>=0.25.0
+
+# LLM Providers
+openai>=1.0.0
+
+# Web Framework (FastAPI)
+fastapi>=0.109.0
+uvicorn>=0.25.0
+python-multipart>=0.0.6
+
+# GUI (Gradio)
+gradio>=4.0.0
+
+# Sentiment Analysis (optional but recommended)
+vaderSentiment>=3.3.2
+
+# Semantic Similarity (optional, for advanced diversity metrics)
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# Development/Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# LangChain Framework
+langchain>=0.3.0
+langchain-anthropic>=0.3.0
+langchain-openai>=0.3.0
+langchain-huggingface>=0.1.0
+langchain-google-genai>=2.0.0
+
+# Observability
+openlit>=1.0.0

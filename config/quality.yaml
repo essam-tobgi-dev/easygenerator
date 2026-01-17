@@ -1,0 +1,80 @@
+diversity:
+  max_vocab_overlap: 0.35
+  max_semantic_similarity: 0.85
+  min_unique_words_ratio: 0.3
+  ngram_overlap_threshold: 0.4
+
+bias:
+  max_positive_ratio: 0.55
+  max_negative_ratio: 0.30
+  sentiment_rating_correlation_min: 0.5
+  max_phrase_repetition: 3
+
+realism:
+  min_domain_term_ratio: 0.02
+  max_marketing_term_ratio: 0.05
+  min_specificity_score: 0.4
+  require_concrete_details: true
+
+domain_keywords:
+  technical_terms:
+    - API
+    - SDK
+    - CI/CD
+    - pipeline
+    - deployment
+    - webhook
+    - rollback
+    - latency
+    - throughput
+    - scalability
+    - integration
+    - debugging
+    - monitoring
+    - logging
+    - tracing
+    - containerization
+    - orchestration
+    - microservices
+    - serverless
+    - caching
+
+  feature_terms:
+    - documentation
+    - onboarding
+    - dashboard
+    - analytics
+    - alerting
+    - notifications
+    - authentication
+    - authorization
+    - rate limiting
+    - versioning
+
+  complaint_terms:
+    - bug
+    - issue
+    - error
+    - crash
+    - slow
+    - downtime
+    - outage
+    - broken
+    - confusing
+    - complicated
+
+  marketing_red_flags:
+    - revolutionary
+    - game-changing
+    - best-in-class
+    - industry-leading
+    - cutting-edge
+    - next-generation
+    - world-class
+    - unparalleled
+
+scoring:
+  diversity_weight: 0.30
+  realism_weight: 0.35
+  bias_weight: 0.35
+  pass_threshold: 0.65
