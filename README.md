@@ -108,6 +108,59 @@ export GOOGLE_API_KEY="your-google-key"
 - Follow instructions at https://ollama.ai
 - Pull models: `ollama pull mistral` or `ollama pull llama3.2`
 
+6- Here’s a **small README** using **Option 1 (Docker – simplest)** 👇
+
+---
+
+## OpenLIT (For observability) – Quick Start (Docker)
+
+<img width="1270" height="760" alt="image" src="https://github.com/user-attachments/assets/d89b21c1-0e70-46b4-abde-f51586910960" />
+
+### Prerequisites
+
+* Docker installed
+* Port `3000`, `4317`, `4318` free
+
+---
+
+### Run OpenLIT
+
+```bash
+docker run -d \
+  --name openlit \
+  -p 3000:3000 \
+  -p 4317:4317 \
+  -p 4318:4318 \
+  openlit/openlit:latest
+```
+
+---
+
+### Open UI
+
+```
+http://localhost:3000
+```
+
+---
+
+### Send Traces to OpenLIT
+
+Use OTLP endpoint:
+
+```text
+http://localhost:4318
+```
+
+---
+
+### Stop & Remove
+
+```bash
+docker stop openlit
+docker rm openlit
+```
+
 ## Usage
 
 ### Command Line Interface
