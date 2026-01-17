@@ -13,6 +13,20 @@ A comprehensive tool for generating high-quality synthetic reviews for SaaS Deve
 - **Comparison Analysis**: Compare synthetic reviews against real baseline data
 - **Comprehensive Reporting**: Markdown quality reports with statistics
 
+## Demo
+
+<img width="815" height="433" alt="Screenshot 2026-01-17 172952" src="https://github.com/user-attachments/assets/2470c022-17ea-4ac7-9318-dd5c44b8a48f" />
+
+<img width="792" height="475" alt="Screenshot 2026-01-17 173619" src="https://github.com/user-attachments/assets/a0967148-7e2a-42b1-9b8a-a452a92e987e" />
+
+<img width="839" height="467" alt="Screenshot 2026-01-17 173050" src="https://github.com/user-attachments/assets/7e8a0b47-7831-4c4a-b91b-fc46614720eb" />
+
+<img width="959" height="475" alt="Screenshot 2026-01-17 173207" src="https://github.com/user-attachments/assets/df870cf2-dc7e-4f7f-9441-c723de1ce8c8" />
+
+<img width="836" height="468" alt="Screenshot 2026-01-17 173233" src="https://github.com/user-attachments/assets/39c0c119-362a-4b43-bc29-c90fd35de258" />
+
+<img width="1908" height="2265" alt="chrome-capture-2026-01-17" src="https://github.com/user-attachments/assets/028d77fe-9ec0-4188-9574-4c1532a2b01c" />
+
 ## Project Structure
 
 ```
@@ -61,7 +75,7 @@ easygenerator/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/essam-tobgi-dev/easygenerator.git
 cd easygenerator
 ```
 
@@ -232,31 +246,3 @@ Configure quality thresholds:
 - **FastAPI**: For programmatic access, integration, batch processing
 - **Gradio**: For interactive exploration, demos, quick testing
 - Gradio directly uses Python modules (not FastAPI)
-
-## Sample Output
-
-```json
-{
-  "id": "review_00001",
-  "review_text": "We've been using CloudBuildX for about 8 months...",
-  "metadata": {
-    "persona_name": "DevOps Engineer",
-    "product_name": "CloudBuildX",
-    "rating": 4,
-    "model_provider": "anthropic",
-    "model_name": "claude-3-5-sonnet-20241022",
-    "generation_time_ms": 1234.5
-  },
-  "quality_metrics": {
-    "diversity_score": 0.82,
-    "realism_score": 0.76,
-    "bias_score": 0.91,
-    "overall_score": 0.83,
-    "accepted": true
-  }
-}
-```
-
-## License
-
-MIT License
